@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'St. John The Baptist Parish Church Register',
+      title: 'Accountany Review Management System (ARMS)',
       home: RegisterPage(),
       debugShowCheckedModeBanner: false,
     );
@@ -39,7 +39,7 @@ class RegisterPage extends StatefulWidget {
           appBar: AppBar(
             backgroundColor: Colors.redAccent,
             foregroundColor: const Color.fromARGB(255, 255, 255, 255),
-            title: const Text('Registration Page'),
+            title: const Text('ARMS Registration Page'),
           ),
           body: Center(
             child: Container(
@@ -47,7 +47,6 @@ class RegisterPage extends StatefulWidget {
               child: ListView(
                 shrinkWrap: true,
                 children: [
-                  //Image.asset('assets/images/1.jpg'),
                   const Text('Create new account',
                     style: TextStyle(
                       fontSize: 40,
